@@ -1,0 +1,65 @@
+Starting Q|R finalise
+-------------------------------------------------------------------------------
+
+DEVIATIONS FROM IDEAL VALUES.
+               RMSD     MAX  COUNT
+ BOND      :  0.016   0.062    132
+ ANGLE     :  1.527   7.316    182
+ CHIRALITY :  0.109   0.212     22
+ PLANARITY :  0.005   0.013     22
+ DIHEDRAL  : 10.696  43.446     76
+ MIN NONBONDED DISTANCE : 2.429 
+
+MOLPROBITY STATISTICS.
+ ALL-ATOM CLASHSCORE : 15.44
+ RAMACHANDRAN PLOT:
+   OUTLIERS : 0.00  %
+   ALLOWED  : 0.00  %
+   FAVORED  : 100.00 %
+ ROTAMER OUTLIERS : 12.50 %
+ CBETA DEVIATIONS : 0
+ PEPTIDE PLANE:
+   CIS-PROLINE     : 0
+   CIS-GENERAL     : 0
+   TWISTED PROLINE : 0
+   TWISTED GENERAL : 0
+-------------------------------------------------------------------------------
+
+  Preparation for phenix.refine
+
+    Add hydrogens
+      - to protein model using phenix.reduce
+      - to ligands using eLBOW, phenix.elbow
+  No unknown residues
+
+    Adding hydrogens to water molecules
+      
+Number of H added: 12
+X-H deviation from ideal before regularization (bond): mean= 0.016 max= 0.160
+X-H deviation from ideal after  regularization (bond): mean= 0.000 max= 0.000
+-------------------------------------------------------------------------------
+
+DEVIATIONS FROM IDEAL VALUES.
+               RMSD     MAX  COUNT
+ BOND      :  0.094   0.160    240
+ ANGLE     :  1.080   5.623    408
+ CHIRALITY :  0.100   0.212     18
+ PLANARITY :  0.004   0.013     32
+ DIHEDRAL  :  8.276  43.446     94
+ MIN NONBONDED DISTANCE : 1.609 
+
+MOLPROBITY STATISTICS.
+ ALL-ATOM CLASHSCORE : 13.22
+ RAMACHANDRAN PLOT:
+   OUTLIERS : 0.00  %
+   ALLOWED  : 0.00  %
+   FAVORED  : 100.00 %
+ ROTAMER OUTLIERS : 7.14 %
+ CBETA DEVIATIONS : 0
+ PEPTIDE PLANE:
+   CIS-PROLINE     : 0
+   CIS-GENERAL     : 0
+   TWISTED PROLINE : 0
+   TWISTED GENERAL : 0
+-------------------------------------------------------------------------------
+Time: 8.0258
